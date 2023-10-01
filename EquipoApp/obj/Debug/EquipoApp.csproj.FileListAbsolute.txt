@@ -1,0 +1,79 @@
+C:\Users\Andres\Projects\Visual Studio 2022\EquipoApp\bin\Debug\EquipoApp.exe.config
+C:\Users\Andres\Projects\Visual Studio 2022\EquipoApp\bin\Debug\EquipoApp.exe
+C:\Users\Andres\Projects\Visual Studio 2022\EquipoApp\bin\Debug\EquipoApp.pdb
+C:\Users\Andres\Projects\Visual Studio 2022\EquipoApp\obj\Debug\EquipoApp.csproj.AssemblyReference.cache
+C:\Users\Andres\Projects\Visual Studio 2022\EquipoApp\obj\Debug\EquipoApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andres\Projects\Visual Studio 2022\EquipoApp\obj\Debug\EquipoApp.FrmPrincipal.resources
+C:\Users\Andres\Projects\Visual Studio 2022\EquipoApp\obj\Debug\EquipoApp.Properties.Resources.resources
+C:\Users\Andres\Projects\Visual Studio 2022\EquipoApp\obj\Debug\EquipoApp.csproj.GenerateResource.cache
+C:\Users\Andres\Projects\Visual Studio 2022\EquipoApp\obj\Debug\EquipoApp.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Projects\Visual Studio 2022\EquipoApp\obj\Debug\EquipoApp.exe
+C:\Users\Andres\Projects\Visual Studio 2022\EquipoApp\obj\Debug\EquipoApp.pdb
+C:\Users\Andres\Projects\Visual Studio 2022\EquipoApp\obj\Debug\EquipoApp.Vistas.FrmNuevoEquipo.resources
+C:\Users\Andres\Projects\Visual Studio 2022\EquipoApp\obj\Debug\EquipoApp.Vistas.FrmEditarJugadores.resources
+C:\Users\Andres\Repo\Prog2\EquipoApp\obj\Debug\EquipoApp.csproj.AssemblyReference.cache
+C:\Users\Andres\Repo\Prog2\EquipoApp\obj\Debug\EquipoApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andres\Repo\Prog2\EquipoApp\obj\Debug\EquipoApp.Vistas.FrmNuevoEquipo.resources
+C:\Users\Andres\Repo\Prog2\EquipoApp\obj\Debug\EquipoApp.Vistas.FrmEditarJugadores.resources
+C:\Users\Andres\Repo\Prog2\EquipoApp\obj\Debug\EquipoApp.FrmPrincipal.resources
+C:\Users\Andres\Repo\Prog2\EquipoApp\obj\Debug\EquipoApp.Properties.Resources.resources
+C:\Users\Andres\Repo\Prog2\EquipoApp\obj\Debug\EquipoApp.csproj.GenerateResource.cache
+C:\Users\Andres\Repo\Prog2\EquipoApp\obj\Debug\EquipoApp.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Repo\Prog2\EquipoApp\obj\Debug\EquipoApp.exe
+C:\Users\Andres\Repo\Prog2\EquipoApp\obj\Debug\EquipoApp.pdb
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\EquipoApp.exe.config
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\EquipoApp.exe
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\EquipoApp.pdb
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\EnvDTE.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\stdole.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Andres\Repo\Prog2\EquipoApp\obj\Debug\EquipoApp.csproj.CopyComplete
