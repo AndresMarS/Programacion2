@@ -37,7 +37,7 @@ namespace OrdenesRepasoParcial1.Presentacion
 
         private void reporteStockToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmReporteStock().ShowDialog();
+            new FrmReporteStock(factory).ShowDialog();
         }
     }
 }

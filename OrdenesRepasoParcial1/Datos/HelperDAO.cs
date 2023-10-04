@@ -12,7 +12,7 @@ namespace OrdenesRepasoParcial1.Datos
     {
         private static HelperDAO instance;
         private SqlConnection cnn;
-        public HelperDAO()
+        private HelperDAO()
         {
             cnn = new SqlConnection(Properties.Resources.CadenaConexion);
         }
@@ -30,7 +30,7 @@ namespace OrdenesRepasoParcial1.Datos
             return this.cnn;
         }
         
-        public DataTable Consultar(string nombreSP)
+        public DataTable ConsultarSp(string nombreSP)
         {
             cnn.Open();
             SqlCommand cmd = new SqlCommand(nombreSP, cnn);

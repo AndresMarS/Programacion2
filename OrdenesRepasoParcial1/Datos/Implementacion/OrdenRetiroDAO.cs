@@ -64,11 +64,16 @@ namespace OrdenesRepasoParcial1.Datos.Implementacion
             return ordenNro;
         }
 
+        public DataTable GetDt(string nombreSp)
+        {
+            return HelperDAO.GetInstance().ConsultarSp(nombreSp);
+        }
+
         public List<Material> GetMateriales()
         {
             List<Material> list = new List<Material>();
 
-            DataTable dt = HelperDAO.GetInstance().Consultar("SP_CONSULTAR_MATERIALES");
+            DataTable dt = HelperDAO.GetInstance().ConsultarSp("SP_CONSULTAR_MATERIALES");
             foreach (DataRow dr in dt.Rows)
             {
                 int cod = Convert.ToInt32(dr["codigo"]);

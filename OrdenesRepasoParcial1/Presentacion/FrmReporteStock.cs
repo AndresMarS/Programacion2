@@ -1,5 +1,9 @@
-﻿using OrdenesRepasoParcial1.Datos;
+﻿using Microsoft.Reporting.WinForms;
+using OrdenesRepasoParcial1.Datos;
+using OrdenesRepasoParcial1.Entidades;
 using OrdenesRepasoParcial1.Presentacion.Reportes;
+using OrdenesRepasoParcial1.Servicios;
+using OrdenesRepasoParcial1.Servicios.Interfaz;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,14 +18,17 @@ namespace OrdenesRepasoParcial1.Presentacion
 {
     public partial class FrmReporteStock : Form
     {
-        public FrmReporteStock()
+        IServicio servicio = null;
+        public FrmReporteStock(FactoryServicioImp factory)
         {
             InitializeComponent();
+            servicio = factory.GetServicio();
         }
 
         private void FrmReporteStock_Load(object sender, EventArgs e)
-        {
-            this.t_MATERIALESTableAdapter.Fill(this.dsReporteStock.T_MATERIALES);
+        {                     
+            DataTable dt = servicio.TraerDt("SP_CONSULTAR_MATERIALES");            
+            this.tMATERIALESBindingSource.DataSource = dt;
             this.rvReporteStock.RefreshReport();
         }
 
