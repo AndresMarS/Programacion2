@@ -1,5 +1,4 @@
-﻿using PedidosSLN.datos;
-using PedidosSLN.dominio;
+﻿using PedidosSLN.dominio;
 using System;
 using System.Collections.Generic;
 using System.Data;

@@ -17,7 +17,7 @@ namespace PedidosSLN.datos
         
         private HelperDB()
         {
-            cnn = new SqlConnection(RecetasSLN.Properties.Resources.CadenaConexion);
+            cnn = new SqlConnection(Properties.Resources.CadenaConexion);
         }
 
         public static HelperDB ObtenerInstancia()

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RecetasSLN.Properties {
+namespace PedidosSLN.Properties {
     using System;
     
     
