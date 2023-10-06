@@ -1,5 +1,5 @@
-﻿using CarpinteriaApp.datos;
-using RecetasSLN.dominio;
+﻿using PedidosSLN.datos;
+using PedidosSLN.dominio;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -9,12 +9,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RecetasSLN.datos
+namespace PedidosSLN.datos
 {
     public class PedidoDAO : IPedidoDAO
     {
         public bool BajarEntregarPedido(int codigo, string bajaEntrega)
         {
+            // Da de baja o entrega, según el parametró bajaEntrega
+
             string sp = string.Empty;
             switch (bajaEntrega)
             {
@@ -39,8 +41,16 @@ namespace RecetasSLN.datos
             return result;
         }
 
-        public List<Cliente> GetListClientes()
+        public List<Cliente> GetListClientes(DateTime fDesde, DateTime fHasta)
         {
+            // Trae una lista de clientes, y a cada cliente le carga la list de Pedidos con sus respectivos pedidos
+
+            if (fDesde == DateTime.Now.AddDays(-30) && fHasta == DateTime.Now)
+            {
+                fDesde = DateTime.Now.AddYears(-200);
+                fHasta = DateTime.Now;
+            }
+
             DataTable dtClientes = HelperDB.ObtenerInstancia().ConsultaSQL("SP_CONSULTAR_CLIENTES");
 
             List<Cliente> lClientes = new List<Cliente>();
@@ -58,8 +68,8 @@ namespace RecetasSLN.datos
                 List<Parametro> l = new List<Parametro>
                 {
                 new Parametro("@cliente", c.Id),
-                new Parametro("@fecha_desde",DateTime.Now.AddYears(-200)),
-                new Parametro("@fecha_hasta",DateTime.Now)
+                new Parametro("@fecha_desde",fDesde),
+                new Parametro("@fecha_hasta",fHasta)
                 };
 
                 DataTable dtPedidos = HelperDB.ObtenerInstancia().ConsultaSQL("SP_CONSULTAR_PEDIDOS", l);

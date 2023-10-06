@@ -1,8 +1,8 @@
-﻿using RecetasSLN.datos;
-using RecetasSLN.datos.DTOs;
-using RecetasSLN.dominio;
-using RecetasSLN.Servicios;
-using RecetasSLN.Servicios.Interfaz;
+﻿using PedidosSLN.datos;
+using PedidosSLN.datos.DTOs;
+using PedidosSLN.dominio;
+using PedidosSLN.Servicios;
+using PedidosSLN.Servicios.Interfaz;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,17 +14,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RecetasSLN.presentación
+namespace PedidosSLN.presentación
 {
     public partial class FrmConsultar : Form
-    {        
+    {
         IServicio servicio = null;
         List<Cliente> lClientes = null;
         public FrmConsultar(FactoryImp factory)
         {
             InitializeComponent();
             servicio = factory.GetServicio();
-            lClientes = servicio.GetListClientes();
+            lClientes = servicio.GetListClientes(DateTime.Now.AddDays(-30), DateTime.Now);
         }
 
         private void FrmConsultar_Load(object sender, EventArgs e)
@@ -51,17 +51,16 @@ namespace RecetasSLN.presentación
         {
             dgvPedidos.Rows.Clear();
             lClientes.Clear();
-            lClientes = servicio.GetListClientes();
+            lClientes = servicio.GetListClientes(dtpDesde.Value,dtpHasta.Value);
+            bool aux = false;
+            int aux2 = 0;
 
-            if (cboClientes.SelectedItem == null)
+            if (cboClientes.SelectedItem == null) // Cargar todos los pedidos en la Dgv si no se seleccionan filtros
             {
-                bool aux = true;
-                int aux2 = 0;
                 foreach (Cliente c in lClientes)
                 {
                     if (c.Pedidos.Count() == 0)
                         aux = true;
-                    else aux = false;
                     foreach (Pedido p in c.Pedidos)
                     {
                         if (p.FechaBaja == DateTime.MinValue)
@@ -75,18 +74,16 @@ namespace RecetasSLN.presentación
                     MessageBox.Show("No hay Pedidos registrados.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
-            else
+            else // Cargar los pedidos del cliente seleccionado en el ComboBox
             {
                 Cliente clienteCbo = (Cliente)cboClientes.SelectedItem;
                 Cliente c = lClientes.FirstOrDefault(c1 => c1.Id.Equals(clienteCbo.Id));
-                
-                bool aux = false;
-                int aux2 = 0;
+
                 if (c.Pedidos.Count() == 0)
                     aux = true;
                 foreach (Pedido p in c.Pedidos)
                 {
-                    if (p.FechaBaja == DateTime.MinValue)
+                    if (p.FechaBaja == DateTime.MinValue) // Solo se muestran en el Dgv los pedidos sin dar de baja, con la feha del ctor sin parametros
                     {
                         dgvPedidos.Rows.Add(new object[] { p.Codigo, c.NombreCompleto, p.FechaEntrega.ToString("dd/MM/yyyy"), "Entregar", "Borrar" });
                         aux2++;
@@ -112,7 +109,10 @@ namespace RecetasSLN.presentación
 
         private void dgvPedidos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            // Busca coincidencia del nombre del cliente de la fila actual, en la list de Clientes
             Cliente c = lClientes.FirstOrDefault(c1 => c1.NombreCompleto.Equals(dgvPedidos.CurrentRow.Cells["colCliente"].Value));
+            
+            // Busca el pedido con el mismo codigo de pedido de la fila actual, en la list Pedidos de ese cliente
             Pedido p = c.Pedidos.FirstOrDefault(p1 => p1.Codigo.Equals(dgvPedidos.CurrentRow.Cells["colCodigo"].Value));
 
             if (dgvPedidos.CurrentCell.ColumnIndex == 4)
@@ -132,8 +132,7 @@ namespace RecetasSLN.presentación
                     MessageBox.Show("Este Pedido ya ha sido entregado.", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             if (dgvPedidos.CurrentCell.ColumnIndex == 5)
-            {
-                //Completar...
+            {                
                 DialogResult r = MessageBox.Show("Seguro que desea Eliminar el Pedido?", "Eliminar", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2);
                 if (r == DialogResult.Yes)
                 {
@@ -141,7 +140,6 @@ namespace RecetasSLN.presentación
 
                     CargarDgvPedidos();
                 }
-
             }
         }
     }

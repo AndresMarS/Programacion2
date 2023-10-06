@@ -1,13 +1,13 @@
-﻿using RecetasSLN.datos;
-using RecetasSLN.presentación;
-using RecetasSLN.Servicios;
+﻿using PedidosSLN.datos;
+using PedidosSLN.presentación;
+using PedidosSLN.Servicios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RecetasSLN
+namespace PedidosSLN
 {
     static class Program
     {

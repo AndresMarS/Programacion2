@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RecetasSLN.datos.DTOs
+namespace PedidosSLN.datos.DTOs
 {
     public class PedidoDTO
     {

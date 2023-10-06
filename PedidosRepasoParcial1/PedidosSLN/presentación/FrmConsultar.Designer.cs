@@ -1,5 +1,5 @@
 ﻿
-namespace RecetasSLN.presentación
+namespace PedidosSLN.presentación
 {
     partial class FrmConsultar
     {

@@ -1,13 +1,13 @@
-﻿using RecetasSLN.datos;
-using RecetasSLN.dominio;
-using RecetasSLN.Servicios.Interfaz;
+﻿using PedidosSLN.datos;
+using PedidosSLN.dominio;
+using PedidosSLN.Servicios.Interfaz;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RecetasSLN.Servicios.Implementacion
+namespace PedidosSLN.Servicios.Implementacion
 {
     public class Servicio : IServicio
     {
@@ -22,9 +22,9 @@ namespace RecetasSLN.Servicios.Implementacion
             return dao.BajarEntregarPedido(codigo, bajaEntrega);
         }
 
-        public List<Cliente> GetListClientes()
+        public List<Cliente> GetListClientes(DateTime fDesde, DateTime fHasta)
         {
-            return dao.GetListClientes();
+            return dao.GetListClientes(fDesde, fHasta);
         }
     }
 }

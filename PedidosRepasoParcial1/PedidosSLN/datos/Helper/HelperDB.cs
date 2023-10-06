@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms.PropertyGridInternal;
 
-namespace CarpinteriaApp.datos
+namespace PedidosSLN.datos
 {
     public class HelperDB
     {

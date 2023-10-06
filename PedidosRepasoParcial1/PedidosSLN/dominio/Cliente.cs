@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RecetasSLN.dominio
+namespace PedidosSLN.dominio
 {
     public class Cliente
     {

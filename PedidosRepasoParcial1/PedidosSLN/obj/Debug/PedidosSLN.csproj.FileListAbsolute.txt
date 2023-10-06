@@ -47,9 +47,9 @@ C:\Users\Andres\Repo\Programacion2\PedidosRepasoParcial1\PedidosSLN\bin\Debug\Re
 C:\Users\Andres\Repo\Programacion2\PedidosRepasoParcial1\PedidosSLN\bin\Debug\RecetasSLN.pdb
 C:\Users\Andres\Repo\Programacion2\PedidosRepasoParcial1\PedidosSLN\obj\Debug\PedidosSLN.csproj.AssemblyReference.cache
 C:\Users\Andres\Repo\Programacion2\PedidosRepasoParcial1\PedidosSLN\obj\Debug\PedidosSLN.csproj.SuggestedBindingRedirects.cache
-C:\Users\Andres\Repo\Programacion2\PedidosRepasoParcial1\PedidosSLN\obj\Debug\RecetasSLN.presentación.FrmConsultar.resources
 C:\Users\Andres\Repo\Programacion2\PedidosRepasoParcial1\PedidosSLN\obj\Debug\RecetasSLN.Properties.Resources.resources
 C:\Users\Andres\Repo\Programacion2\PedidosRepasoParcial1\PedidosSLN\obj\Debug\PedidosSLN.csproj.GenerateResource.cache
 C:\Users\Andres\Repo\Programacion2\PedidosRepasoParcial1\PedidosSLN\obj\Debug\PedidosSLN.csproj.CoreCompileInputs.cache
 C:\Users\Andres\Repo\Programacion2\PedidosRepasoParcial1\PedidosSLN\obj\Debug\RecetasSLN.exe
 C:\Users\Andres\Repo\Programacion2\PedidosRepasoParcial1\PedidosSLN\obj\Debug\RecetasSLN.pdb
+C:\Users\Andres\Repo\Programacion2\PedidosRepasoParcial1\PedidosSLN\obj\Debug\PedidosSLN.presentación.FrmConsultar.resources
