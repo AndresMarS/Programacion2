@@ -1,0 +1,11 @@
+C:\Users\Andres\Projects\Visual Studio 2022\AbmAlumnos\bin\Debug\AbmAlumnos.exe.config
+C:\Users\Andres\Projects\Visual Studio 2022\AbmAlumnos\bin\Debug\AbmAlumnos.exe
+C:\Users\Andres\Projects\Visual Studio 2022\AbmAlumnos\bin\Debug\AbmAlumnos.pdb
+C:\Users\Andres\Projects\Visual Studio 2022\AbmAlumnos\obj\Debug\AbmAlumnos.csproj.AssemblyReference.cache
+C:\Users\Andres\Projects\Visual Studio 2022\AbmAlumnos\obj\Debug\AbmAlumnos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andres\Projects\Visual Studio 2022\AbmAlumnos\obj\Debug\AbmAlumnos.frmAlumnos.resources
+C:\Users\Andres\Projects\Visual Studio 2022\AbmAlumnos\obj\Debug\AbmAlumnos.Properties.Resources.resources
+C:\Users\Andres\Projects\Visual Studio 2022\AbmAlumnos\obj\Debug\AbmAlumnos.csproj.GenerateResource.cache
+C:\Users\Andres\Projects\Visual Studio 2022\AbmAlumnos\obj\Debug\AbmAlumnos.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Projects\Visual Studio 2022\AbmAlumnos\obj\Debug\AbmAlumnos.exe
+C:\Users\Andres\Projects\Visual Studio 2022\AbmAlumnos\obj\Debug\AbmAlumnos.pdb
